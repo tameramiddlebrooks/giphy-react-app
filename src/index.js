@@ -17,6 +17,7 @@ class App extends React.Component {
             gifs: []
         }
         this.handleTermChange = this.handleTermChange.bind(this);
+         //my *attempt* at lifting state up??? definitely not 100% on that concept
         //^binding term change to App
     }
     handleTermChange(term) {
